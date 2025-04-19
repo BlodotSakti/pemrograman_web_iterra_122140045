@@ -1,0 +1,16 @@
+.home-page {
+    display: grid;
+    gap: 30px;
+  }
+  
+  .actions-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+  }
+  
+  @media (max-width: 768px) {
+    .actions-section {
+      grid-template-columns: 1fr;
+    }
+  }

@@ -1,0 +1,62 @@
+.book-list {
+  overflow-x: auto;
+}
+
+.book-list table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.book-list th {
+  background: #2c3e50;
+  color: white;
+  padding: 15px;
+  text-align: left;
+}
+
+.book-list td {
+  padding: 15px;
+  border-bottom: 1px solid #ecf0f1;
+}
+
+.book-list tr:hover {
+  background: #f8f9fa;
+}
+
+.status-badge {
+  display: inline-block;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 0.85em;
+  font-weight: 500;
+}
+
+.status-badge.milik { background: #27ae60; color: white; }
+.status-badge.baca { background: #2980b9; color: white; }
+.status-badge.beli { background: #f39c12; color: white; }
+
+.edit-btn {
+  background: #3498db;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 8px;
+  transition: background 0.3s;
+}
+
+.delete-btn {
+  background: #e74c3c;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.edit-btn:hover { background: #2980b9; }
+.delete-btn:hover { background: #c0392b; }
